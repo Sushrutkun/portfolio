@@ -9,6 +9,7 @@ import { AiFillGithub, AiFillInstagram, AiOutlineDownload, AiOutlineTwitter } fr
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiCodechef, SiCodingninjas, SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -60,42 +61,44 @@ function ResumeNew() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Sushrutkun"
+                  href="https://leetcode.com/sushrutathawale1509/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <SiLeetcode />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/AtwSushrut"
+                  href="https://auth.geeksforgeeks.org/user/sushrutathawale1509/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <SiGeeksforgeeks />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sushrut-athawale-89bb411bb/"
+                  href="https://www.codingninjas.com/studio/profile/7ecca849-e15b-41eb-80c8-180105dd533b"
+                  // href="https://www.linkedin.com/in/sushrut-athawale-89bb411bb/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <SiCodingninjas />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/sushrutathawale/"
+                  href="https://www.codechef.com/users/sushrut_123"
+                  // href="https://www.instagram.com/sushrutathawale/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <SiCodechef />
                 </a>
               </li>
             </ul>
