@@ -67,7 +67,7 @@ function Projects() {
               isBlog={false}
               title="Ats resume scanner"
               description="As a software engineering student, I've built a Python web app with Firebase authentication. Users can log in, upload their resume, and provide a job description and custom tags. Using Flask and NLP libraries, the app calculates a resume score based on JD alignment and tag relevance, displaying it with a gauge visualization. This helps users optimize their resumes for specific applications."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/Sushrutkun/ats-resume-scorer"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -77,8 +77,8 @@ function Projects() {
               isBlog={false}
               title="Portfolio"
               description="My portfolio website is a one-stop platform displaying my projects, GitHub contributions, tech stack, resume, blog, and contact information. It encapsulates my journey as a software engineer, making it a valuable resource for potential employers and collaborators.This website serves as a dynamic tool for networking, job opportunities, and collaboration, reflecting my passion and proficiency as a software engineer."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink="https://sushrut.vercel.app/"
+              demoLink="https://sushrut.vercel.app/"
             />
           </Col>
 
