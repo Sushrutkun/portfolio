@@ -1,67 +1,72 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiMongodb,
   DiPython,
+  DiJava,
+  DiMysql,
 } from "react-icons/di";
 import {
-  SiFirebase,
-  SiNextdotjs,
-  SiExpress,
-  SiCss3,
-  SiC,
+  SiSpringboot,
+  SiApachekafka,
+  SiApachespark,
+  SiRedis,
+  SiDocker,
+  SiKubernetes,
+  SiGo,
+  SiScala,
 } from "react-icons/si";
-import { AiFillHtml5 } from "react-icons/ai";
-import { FaGit, FaGithub } from "react-icons/fa";
+import { FaGit } from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiC />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <AiFillHtml5 />
+        <SiGo />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCss3 />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiScala />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachekafka />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachespark />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
+        <SiRedis />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <FaGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
       </Col>
     </Row>
   );

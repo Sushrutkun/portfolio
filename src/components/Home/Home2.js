@@ -22,35 +22,31 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am proficient in backend technologies like
               <i>
-                <b className="purple"> C++, DSA and Javascript. </b>
+                <b className="purple"> Java, GoLang, Python, and Scala. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My expertise lies in designing and building &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Scalable Distributed Systems</b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Problem Solving.
+                  System Design & Optimization.
                 </b>
               </i>
               <br />
-              I have also solved almost 800+ questions across various online platforms
+              I have solved 800+ problems on LeetCode and other platforms, earned 5-star badges in DSA, C++, and C
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              At Groww, I've designed platforms processing 76M+ daily communications,
+              optimized services at <b className="purple">400K RPM</b>, and built <b className="purple">real-time streaming pipelines</b>
+              with &nbsp;
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                  Apache Kafka, Spark, Redis, and Kubernetes
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
           </Col>

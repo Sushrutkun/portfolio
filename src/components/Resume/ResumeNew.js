@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 // import pdf from "../../Assets/../Assets/Sushrut_Resume_IIITN.pdf";
-import pdf from "../../Assets/Sushrut_Resume_IIITN.pdf";
+import pdf from "../../Assets/Sushrut_Resume_Latest.pdf";
 import { AiFillGithub, AiFillInstagram, AiOutlineDownload, AiOutlineTwitter } from "react-icons/ai";
 // import { Document } from "react-pdf";
 import { Document, Page, pdfjs } from "react-pdf";

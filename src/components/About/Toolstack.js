@@ -3,12 +3,13 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiSlack,
-  SiVercel,
+  SiDocker,
+  SiKubernetes,
+  SiArgocd,
+  SiApacheairflow,
+  SiGit,
+  SiGithub,
   SiLeetcode,
-  SiGeeksforgeeks,
-  SiCodingninjas,
-  SiCodechef,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -18,22 +19,28 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons" >
+        <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" >
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" >
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" >
+        <SiArgocd />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApacheairflow />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiLeetcode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" >
-        <SiGeeksforgeeks />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" >
-        <SiCodingninjas />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" >
-        <SiCodechef />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
       </Col>
     </Row>
   );

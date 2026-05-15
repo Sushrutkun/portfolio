@@ -10,10 +10,9 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple"> Sushrut Athawale </span>
             from <span className="purple"> Nagpur, India.</span>
-            <br /> I am a final year student pursuing BTech at 
-            Indian Institute of Information Technology, Nagpur
+            <br /> I am a Backend Engineer with 2+ years of experience building scalable distributed systems at <span className="purple">Groww</span>.
             <br />
-            Currently I am looking for a 6 months internship.
+            I specialize in designing high-performance platforms, optimizing services at 400K+ RPM, and delivering solutions that process 76M+ daily communications.
             <br />
             <br />
             {/* Apart from coding, some other activities that I love to do! */}
