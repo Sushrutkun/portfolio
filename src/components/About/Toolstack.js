@@ -5,11 +5,12 @@ import {
   SiPostman,
   SiDocker,
   SiKubernetes,
-  SiArgocd,
   SiApacheairflow,
   SiGit,
   SiGithub,
   SiLeetcode,
+  SiPrometheus,
+  SiGrafana,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -28,7 +29,7 @@ function Toolstack() {
         <SiKubernetes />
       </Col>
       <Col xs={4} md={2} className="tech-icons" >
-        <SiArgocd />
+        <SiPrometheus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiApacheairflow />

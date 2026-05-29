@@ -17,7 +17,11 @@ import {
   SiKubernetes,
   SiGo,
   SiScala,
+  SiPostgresql,
+  SiPrometheus,
+  SiGrafana,
 } from "react-icons/si";
+import { FaCodeBranch } from "react-icons/fa";
 import { FaGit } from "react-icons/fa";
 
 function Techstack() {
@@ -25,9 +29,6 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGo />
@@ -39,10 +40,16 @@ function Techstack() {
         <SiScala />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiSpringboot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiApachekafka />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiApachespark />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
@@ -58,6 +65,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaCodeBranch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrometheus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGrafana />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />

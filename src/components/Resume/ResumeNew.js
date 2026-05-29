@@ -4,8 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 // import pdf from "../../Assets/../Assets/Sushrut_Resume_IIITN.pdf";
 import pdf from "../../Assets/Sushrut_Resume_Latest.pdf";
-import { AiFillGithub, AiFillInstagram, AiOutlineDownload, AiOutlineTwitter } from "react-icons/ai";
-// import { Document } from "react-pdf";
+import { AiFillGithub, AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -61,6 +60,26 @@ function ResumeNew() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
+                  href="https://www.linkedin.com/in/sushrut-athawale-89bb411bb/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://github.com/Sushrutkun"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
                   href="https://leetcode.com/sushrutathawale1509/"
                   target="_blank"
                   rel="noreferrer"
@@ -82,7 +101,6 @@ function ResumeNew() {
               <li className="social-icons">
                 <a
                   href="https://www.codingninjas.com/studio/profile/7ecca849-e15b-41eb-80c8-180105dd533b"
-                  // href="https://www.linkedin.com/in/sushrut-athawale-89bb411bb/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -93,7 +111,6 @@ function ResumeNew() {
               <li className="social-icons">
                 <a
                   href="https://www.codechef.com/users/sushrut_123"
-                  // href="https://www.instagram.com/sushrutathawale/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
