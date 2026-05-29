@@ -10,7 +10,6 @@ import {
   SiGithub,
   SiLeetcode,
   SiPrometheus,
-  SiGrafana,
 } from "react-icons/si";
 
 function Toolstack() {
